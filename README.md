@@ -99,8 +99,3 @@ LDA	0.694805
 Gaussian NB	0.694805
 Perceptron	0.694805
 Decision Tree	0.668831
-
-
-Matplotlib & Seaborn: For data visualization.
-
-Jupyter Notebook: As the interactive development environment.
