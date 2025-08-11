@@ -1,11 +1,14 @@
 ##Comparative Analysis of Classification Algorithms for Diabetes Prediction
+
 #📈 Overview
 This repository contains a Jupyter notebook that performs a comprehensive and comparative analysis of 12 machine learning algorithms for a binary classification problem: predicting the onset of diabetes.
 
 The main objective of the project is to clean, preprocess, and model the Pima Indians Diabetes Dataset to determine which classification algorithm offers the highest prediction accuracy.
 
+
 #📋 Dataset
 This project uses the Pima Indians Diabetes Dataset. This dataset contains several medical predictor variables and a target variable indicating whether a patient has diabetes (1) or not (0).
+
 
 #The features include:
 
@@ -24,6 +27,7 @@ BMI
 DiabetesPedigreeFunction
 
 Age
+
 
 #⚙️ Methodology
 The workflow followed in the notebook is as follows:
@@ -47,6 +51,7 @@ Accuracy
 Classification Report (Precision, Recall, F1-score)
 
 Confusion Matrix, visualized as a heatmap.
+
 
 #🤖 Models Evaluated
 The following algorithms were implemented and compared:
@@ -74,6 +79,7 @@ Bagging
 Perceptron
 
 Support Vector Classifier (SVC)
+
 
 #📊 Results
 The comparative analysis showed that ensemble-based algorithms, such as Random Forest and Gradient Boosting, achieved the best performance for this problem. The Random Forest model achieved the highest accuracy with 77.9% on the test set.
